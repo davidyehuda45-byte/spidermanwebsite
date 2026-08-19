@@ -1,5 +1,5 @@
-import { NovaLanding } from '@/components/nova-landing'
+import { SpiderExperience } from '@/components/spider-experience'
 
 export default function Page() {
-  return <NovaLanding />
+  return <SpiderExperience />
 }
