@@ -4,10 +4,10 @@ import { motion, useMotionValue, useReducedMotion, useSpring } from 'motion/reac
 import { useState, type MouseEvent } from 'react'
 
 const suits = [
-  { name: 'CLASSIC', detail: 'Red & Blue', code: '616', color: '#e62429', image: '/suits/classic.png', type: 'classic' },
-  { name: 'MILES', detail: 'Morales Strike', code: '1610', color: '#ff174f', image: '/suits/miles.png', type: 'miles' },
-  { name: 'IRON SPIDER', detail: 'Nanotech', code: '199999', color: '#ffd166', image: '/suits/iron.png', type: 'iron' },
-  { name: 'MIGUEL', detail: "O'Hara 2099", code: '928', color: '#00e5ff', image: '/suits/miguel.png', type: 'miguel' },
+  { name: 'CLASSIC', detail: 'Red & Blue', code: '616', color: '#e62429', image: '/suits/classic-cutout.png', type: 'classic' },
+  { name: 'MILES', detail: 'Morales Strike', code: '1610', color: '#ff174f', image: '/suits/miles-cutout.png', type: 'miles' },
+  { name: 'IRON SPIDER', detail: 'Nanotech', code: '199999', color: '#ffd166', image: '/suits/iron-cutout.png', type: 'iron' },
+  { name: 'MIGUEL', detail: "O'Hara 2099", code: '928', color: '#00e5ff', image: '/suits/miguel-cutout.png', type: 'miguel' },
 ]
 
 function SuitCard({ suit, index, activate }: { suit: typeof suits[number]; index: number; activate: () => void }) {
